@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="KrisFlowers — премиальный онлайн-магазин цветов. Доставка за 2 часа по Москве. Свежие букеты, розы, подарки.">
+  <title>KrisFlowers — Цветы с душой и доставкой за 2 часа</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="stylesheet" href="css/extras.css">
+</head>
+<body>
+
+  <div class="announcement">
+    <div class="container announcement__inner">
+      <span>🎀 Бесплатная доставка при заказе от 5 000 ₽</span>
+      <span class="announcement__timer">Закажите до 20:00 — доставим сегодня: <strong class="delivery-countdown">--:--:--</strong></span>
+    </div>
+  </div>
+
+  <header class="header">
+    <div class="container header__inner">
+      <a href="index.html" class="logo">Kris<span>Flowers</span></a>
+      <nav class="nav">
+        <a href="index.html" class="nav__link active">Главная</a>
+        <a href="catalog.html" class="nav__link">Каталог</a>
+        <a href="about.html" class="nav__link">О нас</a>
+        <a href="delivery.html" class="nav__link">Доставка</a>
+        <a href="contacts.html" class="nav__link">Контакты</a>
+      </nav>
+      <div class="header__actions">
+        <a href="cart.html" class="cart-btn" aria-label="Корзина">
+          <svg viewBox="0 0 24 24" stroke-width="2"><path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 01-8 0"/></svg>
+          <span class="cart-badge" style="display:none">0</span>
+        </a>
+        <button class="burger" aria-label="Меню"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+  </header>
+  <div class="nav-overlay"></div>
+
+  <section class="hero">
+    <div class="hero__bg"></div>
+    <div class="hero__overlay"></div>
+    <div class="petals"></div>
+    <div class="container hero__content">
+      <span class="hero__tag">№1 в России · 500 000+ довольных клиентов</span>
+      <h1 class="hero__title">Цветы, которые говорят <em>«люблю»</em></h1>
+      <p class="hero__text">Премиальные букеты от лучших флористов. Доставка за 2 часа по Тюмени. Каждый букет — маленькое произведение искусства.</p>
+      <div class="hero__actions">
+        <a href="catalog.html" class="btn btn--primary">Выбрать букет</a>
+        <a href="#subscription" class="btn btn--outline">Цветочная подписка</a>
+      </div>
+      <div class="hero__stats">
+        <div class="stat">
+          <div class="stat__number">2ч</div>
+          <div class="stat__label">Экспресс-доставка</div>
+        </div>
+        <div class="stat">
+          <div class="stat__number">98%</div>
+          <div class="stat__label">Свежесть гарантирована</div>
+        </div>
+        <div class="stat">
+          <div class="stat__number">24/7</div>
+          <div class="stat__label">Приём заказов</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="marquee">
+    <div class="marquee__track">
+      <span>🌹 Свежие цветы каждый день</span>
+      <span>✨ Авторский дизайн букетов</span>
+      <span>🚗 Доставка за 2 часа</span>
+      <span>💌 Бесплатная открытка</span>
+      <span>🎁 Подарочная упаковка</span>
+      <span>📸 Фото перед доставкой</span>
+      <span>🌹 Свежие цветы каждый день</span>
+      <span>✨ Авторский дизайн букетов</span>
+      <span>🚗 Дelivery за 2 часа</span>
+      <span>💌 Бесплатная открытка</span>
+    </div>
+  </div>
+
+  <section class="section" id="features">
+    <div class="container">
+      <div class="section__header reveal">
+        <div class="section__tag">Почему KrisFlowers</div>
+        <h2 class="section__title">Магия в каждом лепестке</h2>
+        <p class="section__desc">Мы не просто продаём цветы — мы создаём эмоции, которые остаются в памяти навсегда</p>
+      </div>
+      <div class="features-grid">
+        <div class="glass-card feature-card reveal">
+          <div class="feature-card__icon">🌸</div>
+          <h3 class="feature-card__title">Фермерская свежесть</h3>
+          <p class="feature-card__text">Цветы поступают напрямую с плантаций Голландии и Эквадора. Срез — не более 24 часов назад.</p>
+        </div>
+        <div class="glass-card feature-card reveal reveal-delay-1">
+          <div class="feature-card__icon">🎨</div>
+          <h3 class="feature-card__title">Авторский дизайн</h3>
+          <p class="feature-card__text">Каждый букет собирает флорист с 10+ летним опытом. Уникальные композиции, которых нет больше нигде.</p>
+        </div>
+        <div class="glass-card feature-card reveal reveal-delay-2">
+          <div class="feature-card__icon">📸</div>
+          <h3 class="feature-card__title">Фото перед отправкой</h3>
+          <p class="feature-card__text">Отправим фото готового букета в WhatsApp — вы увидите, что получит ваш близкий человек.</p>
+        </div>
+        <div class="glass-card feature-card reveal reveal-delay-3">
+          <div class="feature-card__icon">💝</div>
+          <h3 class="feature-card__title">Подарок с душой</h3>
+          <p class="feature-card__text">Бесплатная открытка с вашим текстом, лента и фирменная упаковка KrisFlowers в каждом заказе.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--alt" id="mood">
+    <div class="container">
+      <div class="section__header reveal">
+        <div class="section__tag">Уникальная фишка</div>
+        <h2 class="section__title">Подбор по настроению</h2>
+        <p class="section__desc">Не знаете, что выбрать? Расскажите нам о настроении — мы подберём идеальный букет</p>
+      </div>
+      <div class="mood-picker reveal">
+        <button class="mood-btn" data-mood="romantic">💕 Романтика</button>
+        <button class="mood-btn" data-mood="happy">☀️ Радость</button>
+        <button class="mood-btn" data-mood="elegant">👑 Элегантность</button>
+        <button class="mood-btn" data-mood="luxury">✨ Роскошь</button>
+      </div>
+      <div class="mood-result glass-card"></div>
+    </div>
+  </section>
+
+  <section class="section" id="popular">
+    <div class="container">
+      <div class="section__header reveal">
+        <div class="section__tag">Бestsellers</div>
+        <h2 class="section__title">Самые любимые букеты</h2>
+        <p class="section__desc">То, что выбирают чаще всего — проверенная классика и новые хиты сезона</p>
+      </div>
+      <div class="products-grid" id="popular-products"></div>
+      <div style="text-align:center;margin-top:3rem" class="reveal">
+        <a href="catalog.html" class="btn btn--primary">Смотреть весь каталог</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--alt" id="promo">
+    <div class="container">
+      <div class="section__header reveal">
+        <div class="section__tag">Акции</div>
+        <h2 class="section__title">Специальные предложения</h2>
+      </div>
+      <div class="promo-grid">
+        <div class="promo-card reveal">
+          <div class="promo-card__bg" style="background-image:url('https://images.unsplash.com/photo-1582794543139-344688ee6618?w=800&q=80')"></div>
+          <div class="promo-card__overlay"></div>
+          <div class="promo-card__content">
+            <div class="promo-card__discount">−20%</div>
+            <h3 class="promo-card__title">На первый заказ</h3>
+            <p>Для новых клиентов</p>
+            <span class="promo-card__code">KRIS20</span>
+          </div>
+        </div>
+        <div class="promo-card reveal reveal-delay-1">
+          <div class="promo-card__bg" style="background-image:url('https://images.unsplash.com/photo-1526047932273-341f2a7631f9?w=800&q=80')"></div>
+          <div class="promo-card__overlay"></div>
+          <div class="promo-card__content">
+            <div class="promo-card__discount">−15%</div>
+            <h3 class="promo-card__title">День влюблённых</h3>
+            <p>На все букеты из роз</p>
+            <span class="promo-card__code">LOVE15</span>
+          </div>
+        </div>
+        <div class="promo-card reveal reveal-delay-2">
+          <div class="promo-card__bg" style="background-image:url('https://images.unsplash.com/photo-1519378058454-4c29a0a2efac?w=800&q=80')"></div>
+          <div class="promo-card__overlay"></div>
+          <div class="promo-card__content">
+            <div class="promo-card__discount">VIP</div>
+            <h3 class="promo-card__title">Бесплатная доставка</h3>
+            <p>При заказе от 5 000 ₽</p>
+            <span class="promo-card__code">FREEDEL</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="subscription">
+    <div class="container">
+      <div class="subscription-block glass-card reveal">
+        <div class="subscription-block__visual">
+          <img src="https://images.unsplash.com/photo-1487530811176-3780de880c2d?w=600&q=80" alt="Цветочная подписка">
+        </div>
+        <div class="subscription-block__content">
+          <div class="section__tag">Цветочная подписка</div>
+          <h2 class="section__title" style="text-align:left">Свежие цветы каждую неделю</h2>
+          <p style="color:var(--text-muted);margin-bottom:1.5rem;line-height:1.8">Подпишитесь на еженедельную доставку авторских букетов. Скидка 25% для подписчиков, бесплатная доставка и сюрприз в каждой коробке.</p>
+          <ul class="subscription-perks">
+            <li>✓ Авторский букет каждую неделю</li>
+            <li>✓ Скидка 25% на все заказы</li>
+            <li>✓ Бесплатная доставка навсегда</li>
+            <li>✓ Отмена в любой момент</li>
+          </ul>
+          <form class="subscription-form">
+            <input type="email" placeholder="Ваш email" required>
+            <button type="submit" class="btn btn--primary">Подписаться — от 2 990 ₽/нед</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--alt" id="reviews">
+    <div class="container">
+      <div class="section__header reveal">
+        <div class="section__tag">Отзывы</div>
+        <h2 class="section__title">Нас любят — и мы это чувствуем</h2>
+        <p class="section__desc">Более 12 000 отзывов с оценкой 4.9 из 5</p>
+      </div>
+      <div class="reviews-grid">
+        <div class="glass-card review-card reveal">
+          <div class="review-card__stars">★★★★★</div>
+          <p class="review-card__text">«Заказывала букет маме на юбилей — она была в восторге! Цветы простояли 2 недели, упаковка шикарная. KrisFlowers — теперь мой единственный выбор.»</p>
+          <div class="review-card__author">
+            <img class="review-card__avatar" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&q=80" alt="">
+            <div>
+              <div class="review-card__name">Анастасия М.</div>
+              <div class="review-card__date">Тюмень · 2 дня назад</div>
+            </div>
+          </div>
+        </div>
+        <div class="glass-card review-card reveal reveal-delay-1">
+          <div class="review-card__stars">★★★★★</div>
+          <p class="review-card__text">«Делал сюрприз девушке — прислали фото букета до доставки, она была тронута до слёз. Доставили ровно в указанное время. 10 из 10!»</p>
+          <div class="review-card__author">
+            <img class="review-card__avatar" src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&q=80" alt="">
+            <div>
+              <div class="review-card__name">Дмитрий К.</div>
+              <div class="review-card__date">Тюмень · 5 дней назад</div>
+            </div>
+          </div>
+        </div>
+        <div class="glass-card review-card reveal reveal-delay-2">
+          <div class="review-card__stars">★★★★★</div>
+          <p class="review-card__text">«Оформляли свадебные букеты — флористы KrisFlowers создали настоящую сказку! Невеста, подружки, бутоньерки — всё было идеально.»</p>
+          <div class="review-card__author">
+            <img class="review-card__avatar" src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&q=80" alt="">
+            <div>
+              <div class="review-card__name">Елена и Андрей</div>
+              <div class="review-card__date">Тобольск · 1 неделю назад</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container reveal">
+      <div class="cta-banner">
+        <h2 class="cta-banner__title">Подарите эмоции уже сегодня</h2>
+        <p class="cta-banner__text">Закажите до 20:00 — и мы доставим букет сегодня же. Бесплатная открытка и фото перед отправкой.</p>
+        <a href="catalog.html" class="btn btn--gold">Выбрать букет сейчас</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div>
+          <div class="footer__logo">Kris<span>Flowers</span></div>
+          <p class="footer__desc">Премиальный онлайн-магазин цветов с 2015 года. Более 500 000 доставленных букетов и счастливых моментов.</p>
+          <div class="social-links">
+            <a href="#" class="social-link" aria-label="Instagram">IG</a>
+            <a href="#" class="social-link" aria-label="Telegram">TG</a>
+            <a href="#" class="social-link" aria-label="VK">VK</a>
+            <a href="#" class="social-link" aria-label="WhatsApp">WA</a>
+          </div>
+        </div>
+        <div>
+          <h4 class="footer__title">Магазин</h4>
+          <ul class="footer__links">
+            <li><a href="catalog.html">Каталог</a></li>
+            <li><a href="catalog.html">Новинки</a></li>
+            <li><a href="catalog.html">Акции</a></li>
+            <li><a href="#subscription">Подписка</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer__title">Информация</h4>
+          <ul class="footer__links">
+            <li><a href="about.html">О нас</a></li>
+            <li><a href="delivery.html">Доставка</a></li>
+            <li><a href="contacts.html">Контакты</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer__title">Подписка</h4>
+          <p style="font-size:0.88rem;margin-bottom:1rem;opacity:0.75">Скидка 10% на первый заказ</p>
+          <form class="newsletter-form">
+            <div class="promo-input">
+              <input type="email" placeholder="Email" required>
+              <button type="submit" class="btn btn--primary btn--sm">OK</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span>© 2026 KrisFlowers. Все права защищены.</span>
+        <span>8 (800) 666-67-67 · hello@krisflowers.ru</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/products.js"></script>
+  <script src="js/main.js"></script>
+  <script>
+    document.getElementById('popular-products').innerHTML =
+      getPopularProducts(8).map(renderProductCard).join('');
+    initReveal();
+  </script>
+</body>
+</html>
